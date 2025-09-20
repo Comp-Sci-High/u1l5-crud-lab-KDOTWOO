@@ -1,17 +1,24 @@
 // ARRAY SECTION
 // Task 1: Create an empty array called playlist
+let playlist = 
+    [
+   
+
+];
 
 
 // Task 2: Push 3 songs to the playlist array
-
+playlist.push("poco Loco");
+playlist.push("Nokia");
+playlist.push("Chicken noodle soup");
 
 // Task 3: Update the value of the last element to be "Test"
-
+playlist.splice(2,1,"Test");
 
 // Task 4: Delete the "Test" element 
-
+playlist.pop();
 // Console log the array
-
+console.log(playlist);
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
