@@ -16,7 +16,7 @@ playlist.push("Chicken noodle soup");
 playlist.splice(2,1,"Test");
 
 // Task 4: Delete the "Test" element 
-playlist.pop();
+playlist.pop("Test");
 // Console log the array
 console.log(playlist);
 
@@ -24,26 +24,40 @@ console.log(playlist);
 // ----------------------------------
 // OBJECTS SECTION
 // Task 5: Create an object called 'song' with 'title', 'artist', and 'duration' properties
-
+const song ={
+    title:"Left Line",
+    artist:"Bumbaclot",
+    duration:"99:99",
+    listenedTo:false,
+};
 
 // Task 6: Add a property 'listenedTo' to the 'song' object and set it to false
 
-
 // Task 7: Delete the 'artist' property
-
+song.pop(artist)
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
 // NESTED ARRAYS & OBJECTS SECTION
 // Task 8: Create an object called 'album' with properties song's album's 'name', 'year', and 'songs' (leave 'songs' as empty array for now)
+const album ={
+    name:"Nuke Time",
+    year:"2001",
+    song:[],
 
+};
 
 // Task 9: Add your song object (task 5) to the empty songs array in the album object
-
+song.push("Lemon Zest");
+song.push("LeLe LuLu");
+song.push("Lemon Fruit");
+song.push(" Zest");
+song.push("Lemest");
 
 // Console log the length of the album's songs array to confirm it worked
-
+console.log(album.length(song));
 // Task 10: Update the title of the song to be all lowercase. 
+
 // Console log the album object to check your change
 
 
